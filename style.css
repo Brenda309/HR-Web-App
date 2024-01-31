@@ -7,9 +7,6 @@ body{
     background-image: url(./hrbg.webp);
     background-size: cover;
     background-position: 0px -50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     min-height: 100vh;
     overflow: hidden;
 }
@@ -54,13 +51,16 @@ header nav a:hover::before{
     position: relative;
     width: 400px;
     height: 450px;
-    backdrop-filter: blur(40px);
+    backdrop-filter: blur(10px);
     color: white;
     font-size: 20px;
     border: 2px solid white;
     border-radius: 16px;
     overflow: hidden;
     transition: transform .6s ease, height .2s ease-in-out;
+    margin-top: 250px;
+    margin-left: 500px;
+    padding-top: 20px;
 }
 .Form-box form{
     display: flex;
@@ -75,6 +75,7 @@ header nav a:hover::before{
 .Form-box .Register-form{
     transform: translateX(-100%);
 }
+
 .input-box{
     width: 80%;
     display: flex;
@@ -139,12 +140,14 @@ header nav a:hover::before{
 }
 
 .container {
+
     max-width: 600px;
     margin: 50px auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 150px;
 }
 
 h2 {
@@ -192,7 +195,7 @@ button:hover {
     flex-wrap: wrap;
     justify-content:center; 
     gap: 10px;
-    margin-top: 20px;
+    margin-top: 250px;
     
 }
 
@@ -251,7 +254,9 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-    margin-top: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 footer p {
