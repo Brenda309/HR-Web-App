@@ -1,5 +1,8 @@
-# NerdFlix
- NerdFlix is a movie streaming app built in ASP .NET Core MVC
+# Human resource app
+THis a human resourse website to show case, User can register and Login 
+
+# Link to Second Assignment
+
 
 # Steps to run the project locally
 
@@ -10,20 +13,11 @@
     
  3. Clone the Project
  4. Open Project in Code Editor (Visual Studio 2022)
- 5. Restore Dependencies
-    
-         $ none
-    
- 7. Run the project
- 
-         $ Clone project
-    
- 8. Database Migrations
-
-    
-          $ dotnet ef migrations add InitialCreate
-          $ dotnet ef database update
-
+ 5. Features
+   - Registration form
+   - Signup form
+   - Home Form
+   
 
 - After you run Database Migrations, Check the server to see if the database has been created and tables
 
